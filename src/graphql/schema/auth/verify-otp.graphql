@@ -1,0 +1,6 @@
+query VERIFY_OTP($data:PhoneOtpInput){
+  enterOtp(data:$data){
+    status
+    message
+  }
+}

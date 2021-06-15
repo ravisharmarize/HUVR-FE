@@ -1,0 +1,27 @@
+query DESTINATION($first:Int, $page:Int){
+  destination(first:$first, page:$page){
+  data{
+    id
+    name
+    description
+    location
+    image
+    longitude
+    latitude
+    time_zone
+    status
+    order
+    created_at
+  }
+  paginatorInfo{
+      count
+      currentPage
+      firstItem
+      hasMorePages
+      lastItem
+      lastPage
+      perPage
+      total
+    }
+  }
+}

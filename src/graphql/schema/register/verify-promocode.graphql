@@ -1,0 +1,7 @@
+mutation verifyPromocode($data:promoCodeInput!){
+	verifyPromocode(data:$data){
+		status
+		type
+		percent
+	}
+}

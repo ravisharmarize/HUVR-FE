@@ -1,0 +1,5 @@
+query CheckUserName($user_name: String!) {
+  CheckUserName(user_name:$user_name){
+    status
+  }
+}

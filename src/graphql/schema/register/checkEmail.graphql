@@ -1,0 +1,6 @@
+query CheckEmail($email: String!) {
+  CheckEmail(email:$email){
+    status
+    message
+  }
+}

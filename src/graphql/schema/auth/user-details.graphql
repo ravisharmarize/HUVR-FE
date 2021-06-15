@@ -1,0 +1,48 @@
+mutation REGISTER($data: RegisterInput!){
+ register(input:$data){
+  status
+  message
+  access_token
+  refresh_token
+  expires_in
+  token_type
+  user{
+    id
+    first_name
+    last_name
+    email
+    isEmailVerified
+    phone_number
+    phone_country_code
+    phone_country_key
+    avatar
+    type
+    time_zone
+    is_walker_splash_block
+    is_traveller_splash_block
+    online
+    walker_profile{
+      description
+      longitude
+      latitude
+      no_of_walks
+      online
+      city_or_town
+      state_or_province
+      country
+      languages
+      equipments
+      top_three_destinations
+      country_code
+    }
+    card_brand
+    device_token
+    card_last_four
+    over_all_rating
+    created_at
+    updated_at
+    
+  }
+  user_profile_completed
+}
+}

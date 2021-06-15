@@ -1,0 +1,6 @@
+query VERIFY_PHONE_NUMBER($phone:String){
+  verifyPhoneNumber(phone:$phone){
+    status
+    message
+  }
+}

@@ -1,0 +1,15 @@
+query SEARCH_DESTINATION($data:String){
+  searchDestination(keyword:$data){
+    id
+    name
+    description
+    location
+    image
+    longitude
+    latitude
+    time_zone
+    status
+    order
+    created_at
+  }
+}

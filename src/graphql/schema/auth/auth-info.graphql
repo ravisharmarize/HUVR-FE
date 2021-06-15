@@ -1,0 +1,3 @@
+query AUTH_INFO {
+  isLoggedIn @client
+}

@@ -1,0 +1,54 @@
+query ME {
+  me {
+    id
+    user_fname
+    email
+    user_lname
+    profile_image
+    user_identity
+    school
+    user_name
+    birth_year
+    streetaddress
+    streetaddress2
+    city
+    state
+    zip_code
+    Idle_time
+    two_factor_auth
+    fc_setting {
+      id
+      save_before_leaving_module
+      show_delete_dir_message
+      show_delete_career_sketch_message
+      open_simulator
+      last_visited_module
+      video_tracker
+      sense_tracker
+      total_sketches
+      delete_scenario
+      delete_note
+      delete_compair_scenario
+      leave_discovery
+      drag_existing_module
+      drag_other_module
+      activity_time
+    }
+    account_setting {
+      inkwiry_news
+      inkwiry_promotions
+      new_notifications
+      finance_explained
+      search_details
+      search_username
+      search_fullname
+      search_title
+      search_email
+      search_address
+      search_city
+      search_state
+      search_zipcode
+      activity_time
+    }
+  }
+}
